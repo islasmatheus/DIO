@@ -24,7 +24,7 @@ Sou estudante da [Universidade Presbiteriana Mackenize](https://www.mackenzie.br
 ### 📧 Redes Sociais 📧
 
 - **[Linkedin](https://www.linkedin.com/in/islas-matheus)**
-- **[Perfil Público DIO](https://www.dio.me/users/islasmahteus)**
+- **[Perfil Público DIO](https://www.dio.me/users/islasmatheus14)**
 
 
 ## Aproveite o repositório! 🚀
