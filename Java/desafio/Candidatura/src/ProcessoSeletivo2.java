@@ -13,7 +13,7 @@ public class ProcessoSeletivo2 {
         int candidatosSelecionados = 0;
         int candidatosAtual = 0;
         double salarioBase = 2000;
-        while (candidatosSelecionados < 5) {
+        while (candidatosSelecionados < 5 && candidatosAtual < candidatos.length) {
             String candidato = candidatos[candidatosAtual];
             double salarioPretendido = valorPretendido();
 
@@ -21,7 +21,8 @@ public class ProcessoSeletivo2 {
             if (salarioBase >= salarioPretendido) {
                 System.out.println("O candidato " + candidato + " foi selecionado para a vaga");
                 candidatosSelecionados++;
-            }
+            } else
+                System.out.println("O candidato " + candidato + " não foi selecionado para a vaga");
             candidatosAtual++;
         }
     }
