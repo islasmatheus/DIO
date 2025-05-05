@@ -6,7 +6,7 @@ switch (fruta) {
         break
     case "banana":
     case "morango":
-        console.log("Vitamina")
+        console.log("Vitamina de " + fruta)
         break
     case "banana":
         console.log("Suco de banana")
