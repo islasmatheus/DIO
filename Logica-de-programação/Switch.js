@@ -1,15 +1,16 @@
-let fruta = "Pêra"
+let fruta = "morango"
 
-switch (fruta){
+switch (fruta) {
     case "laranja":
         console.log("Suco de laranja")
-            break
+        break
     case "banana":
-        console.log("Vitamina de banana")
-            break
+    case "morango":
+        console.log("Vitamina")
+        break
     case "banana":
         console.log("Suco de banana")
-            break
+        break
     default:
         console.log("Suco genérico")
 }
