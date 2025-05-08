@@ -22,7 +22,7 @@ function calcularNivel(saldoVitorias) {
         nivel = "Diamante"
     } else if (saldoVitorias <= 100) {
         nivel = "Lendário"
-    } else if (saldoVitorias <= 101) {
+    } else {
         nivel = "Imortal"
     }
     return nivel
